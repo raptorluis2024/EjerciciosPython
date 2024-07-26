@@ -9,7 +9,7 @@ el total a pagar tiene un descuento del 8%
 Cuando el producto es de refrigeración se debe agregar un 1% de recargo por concepto de 
 traslado
 
-Los productos de línea blanca están con un 20% de descuento pero es máximo 2 unidades por 
+Los productos de línea blanca están con un 20% de descuento pero el máximo 2 unidades por 
 persona.
 
 Al finalizar debe mostrar el detalle de los datos ingresados, los descuentos y/o recargos
