@@ -1,3 +1,11 @@
+"""
+EL programa debe permitir el ingreso de 5 notas validadas en el rango
+Se debe imprimir el promedio una vez que finalice el programa
+
+v2.0 Indicar cuál fue la menor y la mayor nota ingresada durante el proceso
+
+"""
+
 import getpass
 a = getpass.getpass()
 
