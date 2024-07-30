@@ -1,4 +1,9 @@
 """
+Para poder ingresar notas debe primero ingresar una password, al
+tercer intento el usuario es bloqueado y debe emitir un mensaje
+indicando que superó los tres intentos.
+clave = "VamosConTodo"
+
 EL programa debe permitir el ingreso de 5 notas validadas en el rango
 Se debe imprimir el promedio una vez que finalice el programa
 
