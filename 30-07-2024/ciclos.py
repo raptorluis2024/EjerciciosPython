@@ -14,7 +14,8 @@ print(suma/numeros)
 Generar un algoritmo que permita ingresar dos números.
 Si el primer número es mayor que el segundo muestra la suma
 Si son iguales muestra la multiplicación
-Si el segundo es mayor que el primero muestra la tabla del 5 de ese número
+Si el segundo es mayor que el primero muestra la tabla de
+multiplicar de ese número
 """
 n1 = int(input("Ingrese primer valor"))
 n2 = int(input("Ingrese segundo valor"))
@@ -24,19 +25,7 @@ elif n1 == n2:
     print(n1*n2)
 else:
     for x in range(1,11):
-        print(f"{n2} *{5} = {n2*5}")
-
-
-
-
-
-
-
-
-
-
-
-
+        print(f"{n2} *{x} = {n2*x}")
 
 """
 Generar un algoritmo que permita ingresar un número, debe ser mayor a 10.
