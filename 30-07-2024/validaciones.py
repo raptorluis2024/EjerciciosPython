@@ -11,14 +11,18 @@ v2.0 Indicar cuál fue la menor y la mayor nota ingresada durante el proceso
 
 """
 
-import getpass
-a = getpass.getpass()
+#import getpass
+#a = getpass.getpass()
 
-while True:
-    nota = float(input("Ingrese una nota "))
-    if nota >= 1 and nota <= 7:
-        print("Nota valida")
-        break
-    else:
-        print("nota inválida")
-        continue
+suma=0
+for x in range(5):
+    while True:
+        nota = float(input("Ingrese una nota "))
+        if nota >= 1 and nota <= 7:
+            print("Nota valida")
+            suma += nota  # suma = suma + nota
+            break
+        else:
+            print("nota inválida")
+            continue
+print(f"El promedio es {suma/5:.2f}")
