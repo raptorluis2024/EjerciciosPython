@@ -36,6 +36,7 @@ while True:
                     print("nota inválida")
                     continue
         print(f"El promedio es {suma/5:.2f} nota mayor {mayor} menor {menor}")
+        
         siono = input("Quiere seguir s/n").upper()
         if siono != "S":
             break
