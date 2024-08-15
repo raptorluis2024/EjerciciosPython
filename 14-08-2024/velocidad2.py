@@ -22,10 +22,18 @@ def filtro_manual():
         contador += 1
     return resultado
             
-    
+def filtro_2():
+    promedio_vel = promedio(velocidad)
+    resultado = []
+    for pos, v in enumerate(velocidad):
+        if v > promedio_vel:
+            resultado.append(pos)
+    return resultado
+
 def filtro():
     promedio_vel = promedio(velocidad)
     return [x for x, v in enumerate(velocidad) if v > promedio_vel]
 
 print(filtro())
 print(filtro_manual())
+print(filtro_2())
