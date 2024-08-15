@@ -8,14 +8,17 @@ def promedio(lista):
 
 print(velocidad,"\n", promedio(velocidad), "\n")
 
-""" ARREGLAR *****"""
+""" ARREGLAR """
+## Se corrige la línea 19, cada vez que el elemento cumple se guarda la posición que en este caso
+## corresponde al contador
+
 def filtro_manual():
     promedio_vel = promedio(velocidad)
     resultado = []
     contador = 0
     for x in velocidad:
         if x > promedio_vel:
-            resultado.append(velocidad.index(velocidad[contador]))
+            resultado.append(contador)
         contador += 1
     return resultado
             
