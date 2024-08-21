@@ -18,4 +18,4 @@ from mod2 import promedio as prom_pares
 print(lista, mod1.promedio(lista))
 print(prom1(lista))
 print(lista, prom_pares(lista))
-print(lista, mod2.promedio(lista))
+print(lista, mod2.promedio(lista),mod2.sqrt_prom(lista))
