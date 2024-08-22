@@ -1,4 +1,12 @@
-from vars import masas,salsas
+from vars import masas,salsas,ingredientes
+
+def menu_ingredientes():
+    print("Escoja los ingredientes " )
+
+    for x,y in enumerate(ingredientes):
+        print(x,y)
+    opc = int(input("Ingrese una opción : "))
+    return opc 
 
 def menu_masas():
     print("Escoja una de las masas " )
