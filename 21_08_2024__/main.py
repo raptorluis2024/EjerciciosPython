@@ -24,7 +24,8 @@ while True:
         ingrediente = ingredientes[menu_ingredientes()]
         print("Ingrediente agregado") if u.agregar_ingrediente(pizza,ingrediente) else print("Ingrediente existe en la pizza")
     elif opc == 4:
-        ingrediente = ingredientes[menu_ingredientes()]
+        ingrediente = pizza["ingredientes"][menu_ingredientes(i=pizza["ingredientes"])]
+        print(ingrediente)
         print("Ingrediente eliminado") if u.eliminar_ingrediente(pizza,ingrediente) else print("Ingrediente NO existe en la pizza")
     elif opc == 5:
         print(pizza)
